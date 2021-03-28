@@ -1,13 +1,19 @@
 body{
-	background-color: #c0f0ee;
+	background-color: black;
 	margin:0;
 	padding: 0;
 	box-sizing: border-box;
+	color:white;
+
+}
+html{
+	scroll-behavior: smooth;
 }
 .topnav {
 	background-color: steelblue;
 	line-height: 40px;
 	 margin-top: 0;
+	 color:white;
 
 }
 .topnav a{
@@ -18,6 +24,7 @@ body{
 .rights {
 	float: right;
 	padding: 0 1.66%;
+
 }
 .topnav a:nth-of-type(1){
 	padding-left: 1.66%;
@@ -33,39 +40,49 @@ body{
 	margin:0px 50px;
 }
 #profilepic{
-	width:50%;
-	max-width: 200px;
-	margin-left: 44%;
-	margin-right: 44%;
-	margin-top: 10px;
+	/*width:50%;*/
+	/*max-width: 200px;*/
+	width: 200px;
 	border-radius: 50%;
-	height: auto;
-	max-height: 200px;
+	height: 200px;
+	/*max-height: 200px;*/
+	/*height: 200px;*/
+	/*display: inline-block;*/
+	/*margin: auto;*/
 }
-.aboutme{
+#imageholder{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+#aboutme{
 	text-align: center;
 }
-.skillsandeducation h2{
+#skillsandeducation h2{
 	text-align: center;
 
 }
-.contact{
+#contact{
 	text-align: center;
 }
 .grad1{
-	background-image: linear-gradient(to right, red , #f5c5c4);
+	background-image: linear-gradient(to right, red , black);
 	border-radius:45%;
 	text-align:center;
 	height: 50px;
 }
 .grad2{
-	background-image: linear-gradient(to right, green , #bdf799);
+	background-image: linear-gradient(to right, green , black);
 	border-radius:45%;
 	text-align:center;
 	height: 50px;
 }
 .grad3{
-	background-image: linear-gradient(to right, blue , #94b6f2);
+	background-image: linear-gradient(to right, blue , black);
 	border-radius:45%;
 	text-align:center;
 	height: 50px;
